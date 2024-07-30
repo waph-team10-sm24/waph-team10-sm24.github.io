@@ -1,10 +1,70 @@
-Will be updated later!
-<div>
-<div>Tyler Pilcher <a href="https://PeachyTengo.github.io">Link to personal website</a></div>
-<img src="images/pilchetd-headshot.jpg">
-
-</div>
-<div>
-<div>Ben Habel <a href="https://bchap9.github.io">Link to personal website</a></div>
-</div>
-<img src="images/habelbc-headshot.jpg" style="width:200">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Members</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .member {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .member img {
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+        .member-info {
+            flex: 1;
+        }
+        .member-info a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .member-info a:hover {
+            text-decoration: underline;
+        }
+        .member img.large {
+            width: 150px;
+            height: 150px;
+        }
+        .member img.small {
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="member">
+            <img src="images/pilchetd-headshot.jpg" alt="Tyler Pilcher" class="large">
+            <div class="member-info">
+                <div><strong>Tyler Pilcher</strong></div>
+                <a href="https://PeachyTengo.github.io">Link to personal website</a>
+            </div>
+        </div>
+        <div class="member">
+            <img src="images/habelbc-headshot.jpg" alt="Ben Habel" class="small">
+            <div class="member-info">
+                <div><strong>Ben Habel</strong></div>
+                <a href="https://bchap9.github.io">Link to personal website</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
